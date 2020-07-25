@@ -1,10 +1,14 @@
+
 h1{
     text-align: left;
     color: 	white;
     font-family: 'Nunito', sans-serif;
     padding-right: 500px;
 }
-
+h2{
+    font-size: 15px;
+    padding-top: -10px;
+}
 p{
     margin:20px;
     font-size: 15px;
@@ -30,7 +34,7 @@ p{
     float: right;
     padding-right: 275px;
     margin-right: 10px;
-    margin-top: -300px;
+    margin-top: -200px;
 }
 
 #particles-js{
@@ -50,6 +54,22 @@ p{
     margin: auto;
     align-items: center;
     float: center;
+    padding-left: 10px;
+}
+
+#LinkedIn{
+    width: 50px;
+    margin: auto;
+    align-items: center;
+    float: center;
+    padding-left: 10px;
+}
+#photo{
+    width: 50px;
+    margin: auto;
+    align-items: center;
+    float: center;
+    padding-left: 80px;
 }
 
 #twitter{
@@ -58,6 +78,15 @@ p{
     align-items: center;
     float: center;
     padding-left: 10px;
+}
+
+#instagram{
+    width: 50px;
+    margin: auto;
+    align-items: center;
+    float: center;
+    padding-left: 10px;
+
 }
 .navlink a {
     transition: color .5s;
