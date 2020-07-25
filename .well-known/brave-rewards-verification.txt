@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: brianalterescu.github.io
+Token: ca8595bb670344877c614fba2b27eebbd3e1f5caf098c61a9ca724d3a03abc38
