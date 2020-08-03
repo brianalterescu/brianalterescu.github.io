@@ -1,21 +1,154 @@
+@media (max-width: 700px) {
+    #title {
+        text-align: left;
+        text-indent: -30px;
+        color: white;
+        font-size: 25px;
+        font-family: 'Nunito', sans-serif;
+        padding-right: 400px;
+        padding-left: -400px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: -10px;
+        
+        
+        white-space: nowrap;
+        margin: auto;
+    }
+    #subtitle {
+        text-align: left;
+        text-indent: -51px;
+        color: white;
+        font-size: 25px;
+        padding-right: 400px;
+        
+        white-space: nowrap;
+        margin: auto;
+    }
+    #skillstitle {
+        margin-bottom: 10px;
+        text-align: left;
+        text-indent: 70px; 
+        padding-bottom: -20px;       
+    }
+    #list {
+        text-align: center;
+        font-size: 17px;
+        margin:auto;
+        text-indent: 0px;
+        padding-top: 0px;
+        padding-right: 400px;
+        float: left;    
+        width: 200px;
+    }
+    .me {
+        width: 195px;
+        height: 290px;
+        float: center;
+        padding-right: 275px;
+        padding-left: 10px;
+        padding-top: 0px;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    body {
+        background: rgb(32, 32, 32);
+        position: fixed;
+    }
+    
+    h5 {
+        text-align: left;
+        margin: auto;
+        padding-right: 75px;
+        margin-left: 10px;
+        margin-right: 40px;
+        text-indent: -20px;
+        margin-bottom: 10px;
+        
+    }
+    #Git {
+        text-align: center;
+    }
+    
+    
+    #gitimage {
+        width: 50px;
+        
+    }
+    
+    #LinkedIn {
+        width: 50px;
+        margin: auto;
+        align-items: center;
+        float: center;
+        padding-left: 10px;
+    }
+    
+    #photo {
+        width: 50px;
+        margin: auto;
+        float: left;
+        padding-right: 100px;
+        padding-left: -70px;
+    }
+    
+    #twitter {
+        width: 50px;
+        margin: auto;
+        align-items: center;
+        float: center;
+        padding-left: 10px;
+    }
+    
+    #instagram {
+        width: 50px;
+        margin: auto;
+        align-items: center;
+        float: center;
+        padding-left: 10px;
+    
+    }
+}
+
+
+@media (min-width: 701px){
+    #title {
+        padding-top: 100px;
+        
+    }
+    .me {
+        width: 200px;
+        height: 300px;
+        float: right;
+        padding-right: 275px;
+        margin-right: 10px;
+        margin-top: -200px;
+    }
+    #subtitle {
+        padding-bottom: 30px;
+    }
+}
+
 #title {
     text-align: left;
     color: white;
     font-family: 'Nunito', sans-serif;
     padding-right: 500px;
-    padding-top: 100px;
-    
+    margin-bottom: -5px;
+
 }
 
- #subtitle{
+#subtitle {
     font-size: 15px;
     padding-bottom: 30px;
-    padding-top: -30px;
+    
     position: relative;
-    bottom: 20px;
+    
     font-family: 'Nunito', sans-serif;
 }
-
+a{
+    text-decoration: none;
+ }
 p {
     margin: 20px;
     font-size: 15px;
@@ -36,14 +169,7 @@ p {
     font-family: 'Nunito', sans-serif;
 }
 
-.me {
-    width: 200px;
-    height: 300px;
-    float: right;
-    padding-right: 275px;
-    margin-right: 10px;
-    margin-top: -200px;
-}
+
 
 #particles-js {
     height: 100%;
