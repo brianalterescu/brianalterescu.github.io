@@ -1,133 +1,4 @@
-@media (max-width: 700px) {
-    #title {
-        text-align: left;
-        text-indent: -30px;
-        color: white;
-        font-size: 25px;
-        font-family: 'Nunito', sans-serif;
-        padding-right: 400px;
-        padding-left: -400px;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        margin-bottom: -10px;
-        
-        
-        white-space: nowrap;
-        margin: auto;
-    }
-    #subtitle {
-        text-align: left;
-        text-indent: -51px;
-        color: white;
-        font-size: 25px;
-        padding-right: 400px;
-        
-        white-space: nowrap;
-        margin: auto;
-    }
-    #skillstitle {
-        margin-bottom: 10px;
-        text-align: left;
-        text-indent: 70px; 
-        padding-bottom: -20px;       
-    }
-    #list {
-        text-align: center;
-        font-size: 17px;
-        margin:auto;
-        text-indent: 0px;
-        padding-top: 0px;
-        padding-right: 400px;
-        float: left;    
-        width: 200px;
-    }
-    .me {
-        width: 195px;
-        height: 290px;
-        float: center;
-        padding-right: 275px;
-        padding-left: 10px;
-        padding-top: 0px;
-        align-items: center;
-        padding-bottom: 30px;
-    }
-    body {
-        background: rgb(32, 32, 32);
-        position: fixed;
-    }
-    
-    h5 {
-        text-align: left;
-        margin: auto;
-        padding-right: 75px;
-        margin-left: 10px;
-        margin-right: 40px;
-        text-indent: -20px;
-        margin-bottom: 10px;
-        
-    }
-    #Git {
-        text-align: center;
-    }
-    
-    
-    #gitimage {
-        width: 50px;
-        
-    }
-    
-    #LinkedIn {
-        width: 50px;
-        margin: auto;
-        align-items: center;
-        float: center;
-        padding-left: 10px;
-    }
-    
-    #photo {
-        width: 50px;
-        margin: auto;
-        float: left;
-        padding-right: 100px;
-        padding-left: -70px;
-    }
-    
-    #twitter {
-        width: 50px;
-        margin: auto;
-        align-items: center;
-        float: center;
-        padding-left: 10px;
-    }
-    
-    #instagram {
-        width: 50px;
-        margin: auto;
-        align-items: center;
-        float: center;
-        padding-left: 10px;
-    
-    }
-}
 
-
-@media (min-width: 701px){
-    #title {
-        padding-top: 100px;
-        
-    }
-    .me {
-        width: 200px;
-        height: 300px;
-        float: right;
-        padding-right: 275px;
-        margin-right: 10px;
-        margin-top: -200px;
-    }
-    #subtitle {
-        padding-bottom: 30px;
-    }
-}
 
 #title {
     text-align: left;
@@ -241,4 +112,147 @@ body {
     width: 100%;
     margin: 0;
     color: white;
+}
+
+@media (max-width: 700px) {
+    #title {
+        text-align: left;
+        text-indent: -52px;
+        color: white;
+        font-size: 25px;
+        font-family: 'Nunito', sans-serif;
+        padding-right: 400px;
+        padding-left: -400px;
+        padding-top: 10px;
+        
+        margin-bottom: -10px;
+        
+        
+        white-space: nowrap;
+        margin: auto;
+    }
+    #subtitle {
+        text-align: left;
+        text-indent: -32.5px;
+        color: white;
+        font-size: 11px;
+        padding-right: 400px;
+        
+        
+        white-space: nowrap;
+        margin: auto;
+    }
+    #skillstitle {
+        padding-top: 0px;
+        margin-top: -5px;
+        margin-bottom: 5px;
+        text-align: left;
+        text-indent: 68px; 
+             
+    }
+    #list {
+        text-align: center;
+        font-size: 17px;
+        margin-left: 0px;
+        margin-top: -5px;
+        text-indent: 0px;
+        padding-top: 0px;
+        padding-right: 410px;
+        float: left;    
+        width: 200px;
+    }
+    .me {
+        width: 180px;
+        height: 240px;
+        float: center;
+        padding-right: 325px;
+        padding-left: 10px;
+        padding-top: -10px;
+        align-items: left;
+        padding-bottom: 30px;
+    }
+    body {
+        background: rgb(32, 32, 32);
+        position: fixed;
+        overflow-y: scroll;
+        width: 100%;
+    }
+    
+    h5 {
+        text-align: left;
+        margin: auto;
+        margin-top: 20px;
+        
+        margin-left: 10px;
+        
+        
+        text-indent: -115px;
+        margin-bottom: 10px;
+        
+    }
+    #Git {
+        text-align: center;
+        
+    }
+    
+    
+    #gitimage {
+        width: 50px;
+        
+    }
+    
+    #LinkedIn {
+        width: 50px;
+        margin: auto;
+        align-items: center;
+        
+        
+    }
+    
+    #photo {
+        width: 50px;
+        margin: auto;
+        float: left;
+        padding-right: 100px;
+        padding-left: -70px;
+    }
+    
+    #twitter {
+        width: 50px;
+        margin: auto;
+        align-items: center;
+        float: center;
+        
+    }
+    
+    #instagram {
+        width: 50px;
+        margin: auto;
+        align-items: center;
+        float: center;
+        
+    
+    }
+    span{
+        display:flex;
+    }
+}
+
+
+@media (min-width: 701px){
+    #title {
+        padding-top: 100px;
+        
+    }
+    .me {
+        width: 200px;
+        height: 300px;
+        float: right;
+        padding-right: 275px;
+        margin-right: 10px;
+        margin-top: -200px;
+    }
+    #subtitle {
+        padding-bottom: 30px;
+    }
 }
